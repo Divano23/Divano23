@@ -6,9 +6,13 @@ Soy un profesional recién titulado de la **Universidad de Talca**, apasionado p
 ---
 
 ### 🛠 Tech Stack
-* **Móvil:** Android Nativo (Java/Kotlin), XML Layouts.
-* **Data & BI:** Power BI, SQL, Análisis de Datos.
-* **Web & Otros:** Desarrollo de aplicaciones de gestión, Git, Agentes de IA (Interés actual).
+
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Power Bi](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
