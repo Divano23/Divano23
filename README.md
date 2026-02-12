@@ -1,7 +1,7 @@
 # ¡Hola! Soy Diego Jara 👋
 ### Ingeniero en Informática Empresarial | Android Developer & BI Specialist
 
-Soy un profesional recién titulado de la **Universidad de Talca**, apasionado por unir el mundo del desarrollo técnico con la estrategia de negocios. Me especializo en crear soluciones que resuelven problemas reales, desde la trazabilidad industrial hasta la gestión retail.
+Soy un profesional  de la **Universidad de Talca**, apasionado por unir el mundo del desarrollo técnico con la estrategia de negocios. Me especializo en crear soluciones que resuelven problemas reales, desde la trazabilidad industrial hasta la gestión retail.
 
 ---
 
@@ -33,5 +33,14 @@ Soy un profesional recién titulado de la **Universidad de Talca**, apasionado p
 ---
 
 ### 📫 Contacto
-* **LinkedIn:** [https://www.linkedin.com/in/diego-jara-catalan-a189a3326/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBtGWIoraRFqNcyXyI0uROA%3D%3D]
-* **Email:** [Jaracatalan.d@gmail.com]
+* **LinkedIn:** [Ver Perfil Profesional](https://www.linkedin.com/in/diego-jara-catalan-a189a3326/)
+* **Email:** [Contáctame](Jaracatalan.d@gmail.com)
+
+---
+### 📊 Mis Estadísticas
+<palign="left">
+<img src="https://github-readme-stats.vercel.app/api?username=Divano23&show_icons=true&theme=dracula&hide_border=true" alt="Diego's Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Divano23&layout=compact&theme=dracula&hide_border=true" alt="Diego's Top Langs" />
+</p>
+
+---
