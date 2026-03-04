@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Un pequeño ajuste para el fondo crema de MisterFood */
+body {
+  background-color: #FDF6E9;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
