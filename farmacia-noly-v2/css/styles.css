@@ -1,0 +1,25 @@
+﻿/* css/styles.css */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Definición de la animación de flotación */
+@keyframes float {
+    0% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-15px) rotate(5deg); }
+    100% { transform: translateY(0px) rotate(0deg); }
+}
+
+/* Clase para aplicar la animación por defecto */
+.animate-magnet {
+    animation: float 4s ease-in-out infinite;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Interacción: Cuando el mouse pasa por el CONTENEDOR del carrusel,
+   los imanes reaccionan */
+#hero-carousel:hover .animate-magnet {
+    animation-play-state: paused; /* Se detiene la animación flotante */
+    transform: scale(1.1); /* Se agrandan un poco */
+    filter: drop-shadow(0 10px 15px rgba(0, 162, 177, 0.4)); /* Brillo turquesa */
+}

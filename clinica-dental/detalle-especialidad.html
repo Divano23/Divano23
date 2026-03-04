@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle Especialidad | DentalIA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#f2f5f7] font-sans">
+    <nav class="bg-white shadow-sm p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-uno-blue font-black italic"><i class="fa-solid fa-arrow-left mr-2"></i> Volver</a>
+            <span class="text-xl font-black italic">Dental<span class="text-[#00acee]">IA</span></span>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-10">
+        <div class="bg-white rounded-[3rem] shadow-xl overflow-hidden flex flex-col md:flex-row">
+            <div class="md:w-1/2 h-64 md:h-auto">
+                <img id="esp-img" src="" alt="" class="w-full h-full object-cover">
+            </div>
+
+            <div class="md:w-1/2 p-10">
+                <h1 id="esp-titulo" class="text-4xl font-black text-slate-800 mb-6 uppercase tracking-tighter"></h1>
+                <p id="esp-desc" class="text-lg text-slate-500 mb-8 leading-relaxed italic"></p>
+
+                <div class="border-t pt-8">
+                    <h3 class="text-sm font-black uppercase text-slate-400 mb-6 tracking-widest">Doctores Especialistas</h3>
+                    <div id="esp-doctores" class="grid grid-cols-1 gap-4">
+                        </div>
+                </div>
+
+                <a href="calendario.html" class="block w-full text-center bg-[#97d700] text-white font-black py-4 rounded-2xl mt-10 hover:scale-[1.02] transition shadow-lg shadow-green-100">
+                    RESERVAR HORA AHORA
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-terminal-blue: #002B5B;
+  --color-terminal-yellow: #FFCC00;
+}

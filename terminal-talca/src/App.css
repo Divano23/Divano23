@@ -1,0 +1,40 @@
+import React from 'react'
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-50 font-sans">
+      {/* HEADER */}
+      <header className="bg-terminal-blue text-white p-4 shadow-md">
+        <div className="max-w-6xl mx-auto flex justify-between items-center">
+          <div className="flex items-center gap-3">
+            <div className="bg-white p-1 rounded-sm">
+              <span className="text-terminal-blue font-black text-xl px-1">TBT</span>
+            </div>
+            <h1 className="font-bold text-lg tracking-wider uppercase">Terminal de Buses Talca</h1>
+          </div>
+          <nav className="hidden md:flex gap-8 text-xs font-bold uppercase">
+            <a href="#" className="hover:text-terminal-yellow transition">Atracciones</a>
+            <a href="#" className="hover:text-terminal-yellow transition">Compañías</a>
+            <a href="#" className="border-b-2 border-terminal-yellow pb-1">Horarios</a>
+          </nav>
+        </div>  
+      </header>
+
+      {/* HERO / BUSCADOR */}
+      <main className="bg-terminal-blue pt-12 pb-24 px-4 text-center">
+        <h2 className="text-white text-4xl font-black uppercase mb-10">¿A dónde viajamos hoy?</h2>
+        
+        {/* Caja del Buscador */}
+        <div className="max-w-4xl mx-auto bg-white p-6 rounded-xl shadow-2xl grid grid-cols-1 md:grid-cols-3 gap-4">
+          <input type="text" placeholder="Origen: Talca" className="border-b-2 p-2 outline-none focus:border-terminal-yellow text-gray-700" />
+          <input type="text" placeholder="Destino: ¿A dónde vas?" className="border-b-2 p-2 outline-none focus:border-terminal-yellow text-gray-700" />
+          <button className="bg-terminal-yellow text-terminal-blue font-black py-3 rounded-lg hover:bg-yellow-400 transition">
+            BUSCAR HORARIOS
+          </button>
+        </div>
+      </main>
+    </div>
+  )
+}
+
+export default App

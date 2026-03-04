@@ -1,0 +1,93 @@
+﻿/* --- VARIABLES GLOBALES --- */
+:root {
+    --uno-blue: #00acee;
+    --uno-green: #97d700;
+    --uno-bg: #f2f5f7; /* Fondo grisáceo de la referencia */
+    --dental-cyan: #0097b2;
+    --noly-red: #e64e52;
+}
+
+/* --- CONFIGURACIÓN BASE --- */
+html { 
+    scroll-behavior: smooth; 
+}
+
+body { 
+    background-color: var(--uno-bg); /* Aplicado el fondo solicitado */
+    color: #1e293b;
+    font-family: sans-serif;
+}
+
+/* --- TARJETAS DENTALES (Estilo Uno Salud) --- */
+.card-dental {
+    background: white;
+    border-radius: 0 0 40px 0; /* Curva característica inferior derecha */
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card-dental:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* --- BOTONES PERSONALIZADOS --- */
+.btn-lime {
+    background-color: var(--uno-green);
+    color: white;
+    padding: 8px 24px;
+    border-radius: 9999px; /* Botón redondeado */
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: opacity 0.3s;
+}
+
+.btn-lime:hover {
+    opacity: 0.9;
+}
+
+.btn-cyan-uno {
+    background-color: var(--uno-blue);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* --- BOTÓN FLOTANTE WHATSAPP --- */
+.wsp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.wsp-float:hover { 
+    transform: scale(1.1); 
+}
+
+/* --- COMPONENTES ADICIONALES (Farmacia/Ofertas) --- */
+.badge-discount {
+    background-color: var(--noly-red);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 0.75rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

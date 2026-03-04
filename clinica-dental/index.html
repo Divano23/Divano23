@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentalIA | Clínica Odontológica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .card-dental { border-radius: 0 0 40px 0; transition: all 0.3s ease; background: white; }
+        .card-dental:hover { transform: translateY(-10px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+        .wsp-float { position: fixed; bottom: 20px; right: 20px; background-color: #25d366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 1000; transition: transform 0.3s; }
+        .wsp-float:hover { transform: scale(1.1); }
+    </style>
+</head>
+<body class="bg-[#f2f5f7] text-slate-800 font-sans">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-tooth text-3xl text-[#00acee]"></i>
+                <span class="text-2xl font-black tracking-tighter italic text-slate-800">Dental<span class="text-[#00acee]">IA</span></span>
+            </div>
+           <a href="login.html" class="bg-[#ff6b00] text-white px-8 py-2 rounded-full font-bold text-sm hover:bg-[#e66000] transition">Agendar Hora</a>
+        </div>
+    </nav>
+    <section class="relative bg-white overflow-hidden">
+    <div class="container mx-auto flex flex-col md:flex-row items-center py-10 px-6">
+        <div class="md:w-1/2 z-10 text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl font-black text-slate-800 leading-tight mb-4">
+                Juntos por la salud <br><span class="text-[#00acee]">de tu sonrisa</span>
+            </h1>
+            <div class="inline-block bg-[#ff6b00] text-white px-6 py-2 rounded-xl font-bold mb-6 rotate-[-2deg] shadow-lg">
+                ¡Cupos limitados!
+            </div>
+            <div class="bg-slate-50 border-2 border-dashed border-[#00acee] p-6 rounded-[2rem] mb-8 max-w-sm">
+                <p class="text-slate-600 font-bold mb-2 uppercase text-xs tracking-widest">Limpieza Dental + Flúor</p>
+                <p class="text-4xl font-black text-[#00acee]">$11.900</p>
+                <p class="text-[10px] text-slate-400 mt-2">Valor referencial: $153.700</p>
+            </div>
+            <a href="login.html" class="inline-block bg-[#ff6b00] text-white px-10 py-4 rounded-full font-black uppercase tracking-widest hover:scale-105 transition shadow-xl shadow-orange-200">
+                Agenda Aquí
+            </a>
+        </div>
+
+        <div class="md:w-1/2 mt-12 md:mt-0 relative">
+            <div class="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent z-10"></div>
+            <img src="img/doctora-banner.png" alt="Doctora DentalIA" class="w-full h-auto object-cover rounded-[3rem] relative z-0">
+        </div>
+    </div>
+</section>
+
+<section class="py-12 bg-white border-b border-slate-100">
+    <div class="container mx-auto px-6">
+        <h2 class="text-center text-2xl font-black text-slate-800 mb-10">¿Qué deseas hacer?</h2>
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
+            <div class="flex flex-col items-center p-6 bg-[#00acee] text-white rounded-[2rem] shadow-xl shadow-blue-100 cursor-pointer">
+                <i class="fa-solid fa-calendar-check text-3xl mb-4"></i>
+                <span class="text-[10px] font-black uppercase text-center">Agenda tu hora</span>
+            </div>
+            <div class="flex flex-col items-center p-6 bg-slate-50 rounded-[2rem] hover:bg-white hover:shadow-lg transition cursor-pointer">
+                <i class="fa-solid fa-truck-medical text-3xl text-[#00acee] mb-4"></i>
+                <span class="text-[10px] font-black uppercase text-center">Urgencias</span>
+            </div>
+            <div class="flex flex-col items-center p-6 bg-slate-50 rounded-[2rem] hover:bg-white hover:shadow-lg transition cursor-pointer">
+                <i class="fa-solid fa-hospital text-3xl text-[#00acee] mb-4"></i>
+                <span class="text-[10px] font-black uppercase text-center">Clínicas</span>
+            </div>
+            <div class="flex flex-col items-center p-6 bg-slate-50 rounded-[2rem] hover:bg-white hover:shadow-lg transition cursor-pointer">
+                <i class="fa-solid fa-percent text-3xl text-[#00acee] mb-4"></i>
+                <span class="text-[10px] font-black uppercase text-center">Promociones</span>
+            </div>
+            <div class="flex flex-col items-center p-6 bg-slate-50 rounded-[2rem] hover:bg-white hover:shadow-lg transition cursor-pointer">
+                <i class="fa-solid fa-handshake text-3xl text-[#00acee] mb-4"></i>
+                <span class="text-[10px] font-black uppercase text-center">Convenios</span>
+            </div>
+            <div class="flex flex-col items-center p-6 bg-slate-50 rounded-[2rem] hover:bg-white hover:shadow-lg transition cursor-pointer">
+                <i class="fa-solid fa-tooth text-3xl text-[#00acee] mb-4"></i>
+                <span class="text-[10px] font-black uppercase text-center">Especialidades</span>
+            </div>
+        </div>
+
+        <div class="mt-16 flex flex-wrap justify-center gap-12 border-t border-slate-50 pt-12">
+            <div class="flex items-center space-x-3">
+                <i class="fa-solid fa-award text-2xl text-[#00acee]"></i>
+                <span class="text-[10px] font-black uppercase text-slate-400">+14 Años entregando sonrisas</span>
+            </div>
+            <div class="flex items-center space-x-3">
+                <i class="fa-solid fa-shield-halved text-2xl text-[#00acee]"></i>
+                <span class="text-[10px] font-black uppercase text-slate-400">Garantías en tratamientos</span>
+            </div>
+            <div class="flex items-center space-x-3">
+                <i class="fa-solid fa-location-dot text-2xl text-[#00acee]"></i>
+                <span class="text-[10px] font-black uppercase text-slate-400">+90 Clínicas en Chile</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <a href="https://wa.me/56972653699" class="wsp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <section class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-extrabold mb-4 text-slate-900">Servicios y especialidades</h2>
+            <p class="text-slate-500 mb-16 italic font-medium">Confía en nuestro equipo de dentistas expertos.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card-dental shadow-sm overflow-hidden">
+                    <img src="img/limpieza-dental.jpg" alt="Limpieza Dental" class="h-56 w-full object-cover">
+                    <div class="p-8 text-left">
+                        <h3 class="text-xl font-bold mb-4 text-slate-700">Limpieza Dental</h3>
+                        <p class="text-sm text-slate-600 mb-6 leading-relaxed">Remueve el sarro y placa bacteriana ayudando a prevenir caries y enfermedades de encías.</p>
+                        <div class="flex justify-end">
+                            <button onclick="verDetalle('limpieza')" class="bg-[#97d700] text-white px-6 py-2 rounded-full font-bold text-[11px] uppercase tracking-wider hover:opacity-90 transition shadow-md shadow-green-100">
+                                Agendar Cita
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-dental shadow-sm overflow-hidden">
+                    <img src="img/implantes-dentales.jpg" alt="Implantes Dentales" class="h-56 w-full object-cover">
+                    <div class="p-8 text-left">
+                        <h3 class="text-xl font-bold mb-4 text-slate-700">Implantes Dentales</h3>
+                        <p class="text-sm text-slate-600 mb-6 leading-relaxed">Reemplaza dientes perdidos restaurando la funcionalidad masticatoria y la estética dental.</p>
+                        <div class="flex justify-end">
+                            <button onclick="verDetalle('implantes')" class="bg-[#97d700] text-white px-6 py-2 rounded-full font-bold text-[11px] uppercase tracking-wider hover:opacity-90 transition shadow-md shadow-green-100">
+                                Agendar Cita
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-dental shadow-sm overflow-hidden">
+                    <img src="img/plano-relajacion.jpg" alt="Plano de Relajación" class="h-56 w-full object-cover">
+                    <div class="p-8 text-left">
+                        <h3 class="text-xl font-bold mb-4 text-slate-700">Plano de Relajación</h3>
+                        <p class="text-sm text-slate-600 mb-6 leading-relaxed">Alivia el bruxismo reduciendo la presión mandibular y el desgaste de tus piezas dentales.</p>
+                        <div class="flex justify-end">
+                            <button onclick="verDetalle('limpieza')" class="bg-[#97d700] text-white px-6 py-2 rounded-full font-bold text-[11px] uppercase tracking-wider hover:opacity-90 transition shadow-md shadow-green-100">
+                                Agendar Cita
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-dental shadow-sm overflow-hidden">
+                    <img src="img/ortodoncia.jpg" alt="Ortodoncia" class="h-56 w-full object-cover">
+                    <div class="p-8 text-left">
+                        <h3 class="text-xl font-bold mb-4 text-slate-700">Ortodoncia</h3>
+                        <p class="text-sm text-slate-600 mb-6 leading-relaxed">Corrige y alinea tus dientes mediante brackets tradicionales o alineadores invisibles.</p>
+                        <div class="flex justify-end">
+                            <button onclick="verDetalle('ortodoncia')" class="bg-[#97d700] text-white px-6 py-2 rounded-full font-bold text-[11px] uppercase tracking-wider hover:opacity-90 transition shadow-md shadow-green-100">
+                                Agendar Cita
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-dental shadow-sm overflow-hidden">
+                    <img src="img/endodoncia.jpg" alt="Endodoncia" class="h-48 w-full object-cover">
+                    <div class="p-8 text-left">
+                        <h3 class="text-xl font-bold mb-4 text-slate-700">Endodoncia</h3>
+                        <p class="text-sm text-slate-600 mb-6 leading-relaxed">Tratamiento de conducto avanzado para salvar piezas dentales con daño pulpar severo.</p>
+                        <div class="flex justify-end">
+                            <button onclick="verDetalle('limpieza')" class="bg-[#97d700] text-white px-6 py-2 rounded-full font-bold text-[11px] uppercase tracking-wider hover:opacity-90 transition shadow-md shadow-green-100">
+                                Agendar Cita
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-dental shadow-sm overflow-hidden">
+                    <img src="img/odontopediatria.jpg" alt="Odontopediatría" class="h-56 w-full object-cover">
+                    <div class="p-8 text-left">
+                        <h3 class="text-xl font-bold mb-4 text-slate-700">Odontopediatría</h3>
+                        <p class="text-sm text-slate-600 mb-6 leading-relaxed">Cuidado dental especializado y amigable para la salud bucal de niños y adolescentes.</p>
+                        <div class="flex justify-end">
+                            <button onclick="verDetalle('ninos')" class="bg-[#97d700] text-white px-6 py-2 rounded-full font-bold text-[11px] uppercase tracking-wider hover:opacity-90 transition shadow-md shadow-green-100">
+                                Agendar Cita
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

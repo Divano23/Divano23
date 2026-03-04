@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Paciente | DentalIA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#f2f5f7] flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white w-full max-w-lg p-10 rounded-[3rem] shadow-2xl shadow-blue-100">
+        <div class="text-center mb-8">
+            <i class="fa-solid fa-tooth text-4xl text-[#00acee] mb-2"></i>
+            <h2 class="text-2xl font-black text-slate-800 uppercase tracking-tighter">Registro de Paciente</h2>
+            <p class="text-slate-400 font-bold text-xs uppercase tracking-widest mt-2">Paso 1: Datos básicos</p>
+        </div>
+
+        <form id="express-register" class="space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="text" id="reg-nombre" placeholder="Nombre completo" class="w-full p-4 bg-slate-50 border-2 border-transparent rounded-2xl focus:border-[#00acee] focus:bg-white outline-none transition font-bold text-sm" required>
+                <input type="email" id="reg-correo" placeholder="Correo electrónico" class="w-full p-4 bg-slate-50 border-2 border-transparent rounded-2xl focus:border-[#00acee] focus:bg-white outline-none transition font-bold text-sm" required>
+            </div>
+
+            <div class="pt-4">
+                <label class="block text-[10px] font-black uppercase text-slate-400 mb-3 ml-4">¿Qué servicio necesitas?</label>
+                <select id="reg-especialidad" class="w-full p-4 bg-slate-100 border-none rounded-2xl font-bold text-sm text-slate-600 focus:ring-2 focus:ring-[#00acee] outline-none cursor-pointer">
+                    <option value="limpieza">Limpieza Dental</option>
+                    <option value="ortodoncia">Ortodoncia</option>
+                    <option value="implantes">Implantes Dentales</option>
+                    <option value="endodoncia">Endodoncia</option>
+                    <option value="ninos">Odontopediatría</option>
+                </select>
+            </div>
+
+            <button type="submit" class="w-full bg-[#97d700] text-white font-black py-4 rounded-2xl shadow-lg shadow-green-100 hover:scale-[1.02] transition uppercase tracking-widest text-sm mt-6">
+                Continuar a selección de hora
+                
+            </button>
+        </form>
+    </div>
+</body>
+</html>
